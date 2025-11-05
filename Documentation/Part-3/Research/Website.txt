@@ -1,0 +1,40 @@
+Collection: Proton-related Websites
+
+Official
+- https://proton.me
+- https://proton.me/about
+- https://account.proton.me
+- https://status.proton.me
+- https://proton.me/blog
+- https://proton.me/support
+- https://community.proton.me
+
+Products
+- https://proton.me/mail
+- https://proton.me/pass
+- https://proton.me/authenticator
+- https://proton.me/drive
+- https://proton.me/calendar
+- https://protonvpn.com
+
+Support (product-specific)
+- https://proton.me/support/mail
+- https://proton.me/support/pass
+- https://proton.me/support/authenticator
+- https://proton.me/support/drive
+- https://proton.me/support/calendar
+- https://proton.me/support/vpn
+
+Trust & Transparency
+- https://proton.me/legal
+- https://proton.me/legal/transparency-report
+- https://proton.me/legal/terms-and-conditions
+- https://proton.me/privacy-policy
+
+Open Source / Code
+- https://github.com/ProtonMail
+- https://github.com/ProtonVPN
+
+Security & Research
+- https://proton.me/security
+- https://proton.me/blog/tag/security

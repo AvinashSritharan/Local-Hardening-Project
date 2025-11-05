@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../Assets/Viper-Logo_White.png">
-  <source media="(prefers-color-scheme: light)" srcset="../Assets/Viper-Logo_Black.png">
-  <img src="../Assets/Viper-Logo_Black.png" alt="Logo von V1P3R" width="200">
+  <source media="(prefers-color-scheme: dark)" srcset="../../Assets/Viper-Logo_White.png">
+  <source media="(prefers-color-scheme: light)" srcset="../../Assets/Viper-Logo_Black.png">
+  <img src="../../Assets/Viper-Logo_Black.png" alt="Logo von V1P3R" width="200">
 </picture>
 
 <br>
@@ -14,15 +14,9 @@ Harden Windows 11 with built-in controls and a few habits that reduce attack sur
 
 Enable core defenses (Defender, phishing/PUA, Memory Integrity), use safer accounts (standard user + UAC), protect data (encryption, HTTPS/DoH), and prepare fast recovery (restore points, tested backups).
 
-### Checklist
+<br>
 
-* [ ] **Update Windows & apps** regularly
-* [ ] **Use a standard user**, keep **UAC** on
-* [ ] **Turn on Microsoft Defender** (real-time, cloud, PUA, phishing)
-* [ ] **Enable device encryption**; save the **recovery key**
-* [ ] **Turn on Memory Integrity** (Core isolation)
-* [ ] **Use encrypted DNS** (DoH)
-* [ ] **Back up important files**: one cloud + one offline
+# `Chapter I`
 
 > [!IMPORTANT]
 > Many strong Defender protections exist but are **off** by default. We'll enable them with minimal breakage and clear rollback points.
@@ -194,11 +188,21 @@ manage-bde -status
 
 You now have: safer daily use (standard user + UAC), stronger Defender protections (real-time, cloud, PUA/phishing, ASR, ransomware controls), hardened device security (Memory Integrity + encryption), encrypted DNS, and a reliable recovery plan (restore points + tested backups).
 
+## Checklist
+
+* [ ] **Update Windows & apps** regularly
+* [ ] **Use a standard user**, keep **UAC** on
+* [ ] **Turn on Microsoft Defender** (real-time, cloud, PUA, phishing)
+* [ ] **Enable device encryption**; save the **recovery key**
+* [ ] **Turn on Memory Integrity** (Core isolation)
+* [ ] **Use encrypted DNS** (DoH)
+* [ ] **Back up important files**: one cloud + one offline
+
 <br>
 
 ---
 
-> [⮝ **Go to the Next Part** ⮝](Part-2.md)
+> [⮝ **Go to the Next Part** ⮝](../Part-2/Part-2.md)
 
 ---
 

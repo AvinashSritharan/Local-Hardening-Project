@@ -3,7 +3,7 @@
    <picture>
       <source media="(prefers-color-scheme: dark)" srcset="Assets/Viper-Logo_White.png">
       <source media="(prefers-color-scheme: light)" srcset="Assets/Viper-Logo_Black.png">
-      <img src="Assets/Viper-Logo_Black.png" alt="Project Logo" width="45%">
+      <img src="Assets/Viper-Logo_Black.png" alt="Project Logo" width="350px">
    </picture>
 
   [![Issues][issues-shield]][issues-url]
@@ -16,9 +16,9 @@
     <br />
     <a href="#overview">Overview</a>
     ·
-    <a href="#used-tools">Tools</a>
+    <a href="#let's-get-started">Get Started</a>
     ·
-    <a href="Docs/Journal/">Journal</a>
+    <a href="Docs/">Documentation</a>
     ·
     <a href="#license">License</a>
   </p>
@@ -33,61 +33,51 @@ Placeholder Iamge
 
 Placeholder Image
 
-## Overview
-
-This project builds a clear, repeatable hardening setup for a local Windows Laptop or Computer. It starts with a simple baseline check (updates, firewall, services, startup apps, device encryption) and then raises the security level step by step: clean user accounts, remove unneeded admin rights, set a password manager, enforce strong passwords and 2FA, harden the browser (privacy settings and a few safe extensions), enable BitLocker for full-disk encryption and, if needed, use a small VeraCrypt container for sensitive files. Small PowerShell scripts keep the system tidy and consistent (clean the Downloads folder, rotate logs, back up key configs, check for new local admins) and a simple naming structure keeps files and folders organized.
-
-Wazuh runs on the laptop to watch file changes, key security events, and common risks; rules and alerts make changes visible in plain language. Grafana shows live health data (CPU, RAM, disk, network) and a few important security counters; Power BI can be added later for a static "before vs after" report if needed. Focus stays on two things: clear steps any user can run without deep knowledge, and measurable results that prove the hardening worked. Deliverables are a short guide with screenshots, a small script pack and configs, and simple before/after checks—including a quick restore test—to show the improvement.
-
-**Baseline check:** updates, firewall, services, startup apps, device encryption  
-**Account & access hygiene:** clean users, remove unneeded admin rights, add a password manager, enforce strong passwords & 2FA  
-**Browser & data protection:** privacy-focused settings, safe extensions, BitLocker FDE, optional VeraCrypt container for sensitive files  
-**Maintenance scripts:** tidy Downloads, rotate logs, back up key configs, alert on new local admins; simple, consistent naming for files/folders  
-**Monitoring & visibility:** Wazuh on-device rules/alerts that explain changes in plain language  
-**Dashboards & reporting:** Grafana for live health + key security counters; optional Power BI “before vs after” report  
-**Outcome focus:** clear steps non-experts can run; measurable proofs that hardening worked  
-**Deliverables:** short guide with screenshots, small script pack & configs, before/after checks + quick restore test
+# Overview
 
 ## What You Will Learn
 
-In this project, you'll set up a fully functional Active Directory lab, install and configure key services such as Splunk and Sysmon, and simulate cyber attacks.
-You'll get hands-on experience in setting up a domain environment, configuring security monitoring, and performing attack simulations.
+In this project, you'll learn how to harden a local Windows system and make the effectiveness of the applied security measures measurable. You'll use the open-source security platform **Wazuh** as a **Host-based Intrusion Detection System (HIDS)** to continuously monitor the system, detect suspicious activity or configuration changes, and provide transparent evidence of the system’s security state.
+
+You will also learn how to use **Grafana** with **Prometheus** and **Windows Exporter** to monitor the system's health and performance in real-time.
 
 **You'll also learn how to...**
 
-- Design and plan a network architecture
-- Install and configure multiple virtual machines
-- Set up Active Directory Domain Services
-- Monitor and analyze security logs using Splunk
-- Simulate cyber attacks and test your detection capabilities
+- Build a clean baseline and harden Windows safely
+- Secure your browser and day to day privacy (Firefox and Proton)
+- Set up on-device threat detection and readable alerts with Wazuh
+- See live system health with Grafana, Prometheus and Windows Exporter
+- Verify changes and measure progress with before and after checks
+- Keep thigns in check with custom built scripts and an easy rollback plan
 
 ## Used Tools
 
-- [**`Draw.io`**](https://app.diagrams.net/) Create network diagrams easily.
-- [**`VirtualBox`**](https://www.virtualbox.org/) Run multiple virtual machines on your computer.
-- [**`Windows Server 2022`**](https://www.microsoft.com/en-us/windows-server) – Set up Active Directory services.
-- [**`Kali Linux`**](https://www.kali.org/) A Linux system used for security testing.
-- [**`Splunk`**](https://www.splunk.com/) Collect and analyze logs from your machines.
-- [**`Sysmon`**](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) – Track detailed system events on Windows.
-- [**`Atomic Red Team`**](https://atomicredteam.io/) Simulate attacks to test your security setup.
+- [**`Grafana`**](https://grafana.com/) **Visualize** and explore metrics and logs.
+- [**`Windows Exporter`**](https://github.com/prometheus-community/windows_exporter) **Expose** Windows performance metrics for Prometheus.
+- [**`Prometheus`**](https://prometheus.io/) **Collect**, store, and alert on time-series metrics.
+- [**`Wazuh`**](https://wazuh.com/) **Open-source SIEM** with agent-based monitoring and threat detection.
+- [**`Proton`**](https://proton.me/) **Mail, Pass and Authenticator** for Private E-Mail, a Secure Password Manager and 2FA respectively.
+- [**`Windows`**](https://www.microsoft.com/windows) **Operating system** for desktops and servers.
+- [**`Firefox`**](https://www.mozilla.org/firefox/) **Privacy-focused** web browser.
 
 ## Why You Should Do This
 
-This project is great for anyone looking to level up their **IT admin or cybersecurity skills**, or both. If you're looking to **boost** your **technical expertise** and **gain real-world experience** in setting up and managing a domain environment, this hands-on project is perfect for you. It's also great preparation for interviews. You'll also get some great experience in monitoring and detecting attacks using industry-standard tools like Splunk and Sysmon.
+This project is ideal for anyone who wants to level up their **IT admin or cybersecurity skills** on a personal Windows machine. Whether you just set up a new laptop or you want to improve an existing one, you will build a repeatable hardening baseline and gain real visibility into your system.
 
-By the time you're done with this project, you'll be ready to talk about Active Directory architecture and security monitoring in professional settings, including job interviews.
+You'll harden **Windows**, lock down **Firefox**, use **Proton** for privacy and set up **Wazuh** to detect Threats Observability. **Grafana** with **Prometheus** and **Windows Exporter** will show live system health, so you always know what your PC is doing.
+
+By the end, you'll be able to **talk confidently about Windows hardening**, on device monitoring and alert triage. You'll know how to **check each change**, **track progress** with dashboards and simple before and after tests and keep things in check with **custom built scripts**. You'll finish with **interview-ready**, **hands-on experience** that shows strong security habits, clear visuibility and real incident readiness on a real laptop.
 
 ## Let's get Started
 
-Ready to build your own Active Directory lab?
+Below you will see all Parts we have, go to **[this Link](Documentation/ReadMe.md)** get started
 
-Follow the Parts below step by step to complete your project. You'll start by setting up a network, then move on to installing virtual machines, configuring Active Directory, and finally simulating attacks.
-
-### Links to Each Part
-
-1. **[`Part 1` Project Setup and Diagram Design](Project/Part-1.md/)**
-2. **[`Part 2` Installing Virtual Machines](Project/Part-2.md/)**  
-3. **[`Part 3` Wazuh Setup](Project/Part-3.md/)**  
+1. **[`Part 1` Placeholder 1](Project/Part-1.md/)** Lorem ipsum **dolor sit amet**, consectetur **adipiscing** elit.
+2. **[`Part 2` Placeholder 2](Project/Part-2.md/)** sed do eiusmod **tempor incididunt** ut labore et dolore magna aliqua.
+3. **[`Part 3` Placeholder 3](Project/Part-3.md/)** Ut enim ad **minim veniam**, quis nostrud exercitation.
+4. **[`Part 4` Placeholder 4](Project/Part-4.md/)** Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+5. **[`Part 5` Placeholder 5](Project/Part-5.md/)** Duis aute **irure dolor** in reprehenderit in voluptate velit esse cillum dolore.
+6. **[`Part 6` Placeholder 6](Project/Part-6.md/)** Excepteur sint **occaecat cupidatat** non proident.
 
 ## Our License
 
@@ -96,20 +86,20 @@ Creative Commons (CC BY-NC-SA 4.0)
 This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.de).
 
 <!-- Stars Badge -->
-[stars-shield]: https://img.shields.io/github/stars/AvinashSritharan/Local-Hardening-Project?style=flat&label=Stars&labelColor=111111&color=4C9AE8
+[stars-shield]: https://custom-icon-badges.demolab.com/github/stars/AvinashSritharan/Local-Hardening-Project?style=flat&label=Stars&labelColor=111111&color=4C9AE8&logo=star&logoColor=white
 [stars-url]: https://github.com/AvinashSritharan/Local-Hardening-Project/stargazers
 
 <!-- Issues Badge -->
-[issues-shield]: https://img.shields.io/github/issues/AvinashSritharan/Local-Hardening-Project?style=flat&label=Issues&labelColor=111111&color=F78A1D
+[issues-shield]: https://custom-icon-badges.demolab.com/github/issues/AvinashSritharan/Local-Hardening-Project?style=flat&label=Issues&labelColor=111111&color=F78A1D&logo=issue-opened&logoColor=white
 [issues-url]: https://github.com/AvinashSritharan/Local-Hardening-Project/issues
 
 <!-- Commits Badge (yearly activity) -->
-[commits-shield]: https://img.shields.io/github/commit-activity/y/AvinashSritharan/Local-Hardening-Project?style=flat&label=Commits&labelColor=111111&color=FF007F
+[commits-shield]: https://custom-icon-badges.demolab.com/github/commit-activity/y/AvinashSritharan/Local-Hardening-Project?style=flat&label=Commits&labelColor=111111&color=FF007F&logo=git-commit&logoColor=white
 [commits-url]: https://github.com/AvinashSritharan/Local-Hardening-Project/commits/HEAD
 
 <!-- License Badge -->
-[license-shield]: https://img.shields.io/github/license/AvinashSritharan/Local-Hardening-Project?style=flat&label=License&labelColor=111111&color=FF5A5F
-[license-url]: https://github.com/AvinashSritharan/Local-Hardening-Project/blob/HEAD/LICENSE
+[license-shield]: https://img.shields.io/badge/License-CC%204.0-FF5A5F?style=flat&labelColor=111111&logo=creativecommons&logoColor=white
+[license-url]: http://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
 
 <!-- (Optional) Top Language Badge -->
 [language-shield]: https://img.shields.io/github/languages/top/AvinashSritharan/Local-Hardening-Project?style=flat&label=Top%20language&labelColor=111111&color=8E44AD

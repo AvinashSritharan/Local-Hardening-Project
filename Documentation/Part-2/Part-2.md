@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../Assets/Viper-Logo_White.png">
-  <source media="(prefers-color-scheme: light)" srcset="../Assets/Viper-Logo_Black.png">
-  <img src="../Assets/Viper-Logo_Black.png" alt="Logo von V1P3R" width="200">
+  <source media="(prefers-color-scheme: dark)" srcset="../../Assets/Viper-Logo_White.png">
+  <source media="(prefers-color-scheme: light)" srcset="../../Assets/Viper-Logo_Black.png">
+  <img src="../../Assets/Viper-Logo_Black.png" alt="Logo von V1P3R" width="200">
 </picture>
 
 <br>
@@ -14,26 +14,12 @@ This Part secures your daily browsing on Windows with a hardened Firefox setup t
 
 Configure Firefox for strong privacy and sensible security using built-in options first, then add minimal, high-impact extensions. Optional advanced tweaks are included for power users.
 
-### Checklist
-
-* [ ] **Enhanced Tracking Protection**: `Strict`
-* [ ] **HTTPS-Only Mode** enabled
-* [ ] **Telemetry** and data collection off
-* [ ] **Privacy-respecting search** set as default
-* [ ] **Block** camera, microphone, and location **by default**
-* [ ] **Block Autoplay** (audio & video)
-* [ ] **DNS over HTTPS (DoH)** enabled
-* [ ] Install **uBlock Origin**
-* [ ] Install **Firefox Multi-Account Containers**
-* [ ] Use a **password manager** (disable Firefox password save)
-
 > [!IMPORTANT]
 > Make changes in order. After each step, test 2–3 sites you use daily. If something breaks, add a **site exception**—don’t weaken global settings.
 
 ---
 
 <!--// Step 1 //-->
-
 ## `Step 1` Set strong privacy defaults
 
 1. Open **Menu > Settings > Privacy & Security**
@@ -49,7 +35,6 @@ Configure Firefox for strong privacy and sensible security using built-in option
 ---
 
 <!--// Step 2 //-->
-
 ## `Step 2` Reduce passive data leaks
 
 1. **Logins and Passwords** > **Turn off** `Ask to save passwords`
@@ -65,7 +50,6 @@ Configure Firefox for strong privacy and sensible security using built-in option
 ---
 
 <!--// Step 3 //-->
-
 ## `Step 3` Lock down device access & autoplay
 
 1. **Permissions > Camera > Settings…** > **`Block new requests`**
@@ -81,7 +65,6 @@ Configure Firefox for strong privacy and sensible security using built-in option
 ---
 
 <!--// Step 4 //-->
-
 ## `Step 4` Tune cookies, history, and clearing (balanced)
 
 1. **Cookies and Site Data** > (Optional) **check** `Delete cookies and site data when Firefox is closed`
@@ -97,7 +80,6 @@ Configure Firefox for strong privacy and sensible security using built-in option
 ---
 
 <!--// Step 5 //-->
-
 ## `Step 5` Enable DNS over HTTPS (DoH)
 
 1. **Settings > General > Network Settings > Settings…**
@@ -130,7 +112,7 @@ Install from **addons.mozilla.org** only.
 
    * Use this for autofill; keep Firefox’s password save **off** (Step 2).
 
-![uBlock & Containers](Images/P2_Image-6.png)
+![uBlock & Containers](Images/P2_Images-6.png)
 
 > [!WARNING]
 > Keep the list short. Random “privacy” add-ons, user-agent spoofers, and overlapping blockers often **increase** fingerprint uniqueness or break sites.
@@ -155,10 +137,12 @@ Open a tab > **`about:config`** > accept the warning.
 * **Stricter autoplay if needed:**
   `media.autoplay.default` > `5`
 
+![About Settings](Images/P2_Images-7.png)
+
 ### B) Curated `user.js` (managed baseline)
 
-* **Betterfox** — balanced, fast
-* **arkenfox** — stricter; may require per-site exceptions
+* **Betterfox** balanced, fast
+* **arkenfox** stricter; may require per-site exceptions
 
 **Install `user.js`:**
 
@@ -188,6 +172,19 @@ Open a tab > **`about:config`** > accept the warning.
 > [!NOTE]
 > This setup delivers strong privacy without breaking daily browsing. If a site misbehaves, add a **site-specific exception** or open it in a **dedicated container**—don’t weaken your global baseline.
 
+## Checklist
+
+* [ ] **Enhanced Tracking Protection**: `Strict`
+* [ ] **HTTPS-Only Mode** enabled
+* [ ] **Telemetry** and data collection off
+* [ ] **Privacy-respecting search** set as default
+* [ ] **Block** camera, microphone, and location **by default**
+* [ ] **Block Autoplay** (audio & video)
+* [ ] **DNS over HTTPS (DoH)** enabled
+* [ ] Install **uBlock Origin**
+* [ ] Install **Firefox Multi-Account Containers**
+* [ ] Use a **password manager** (disable Firefox password save)
+
 <br>
 
 ---
@@ -197,3 +194,5 @@ Open a tab > **`about:config`** > accept the warning.
 ---
 
 > [⮝ **Go to the Overview Page** ⮝](../)
+
+---

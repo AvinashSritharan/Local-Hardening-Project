@@ -1,16 +1,16 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../Assets/Viper-Logo_White.png">
-  <source media="(prefers-color-scheme: light)" srcset="../Assets/Viper-Logo_Black.png">
-  <img src="../Assets/Viper-Logo_Black.png" alt="Logo von V1P3R" width="200">
+  <source media="(prefers-color-scheme: dark)" srcset="../../Assets/Viper-Logo_White.png">
+  <source media="(prefers-color-scheme: light)" srcset="../../Assets/Viper-Logo_Black.png">
+  <img src="../../Assets/Viper-Logo_Black.png" alt="Logo von V1P3R" width="200">
 </picture>
 
-# Proton Services Setup
+# `Part 3` Proton Services Setup
 
 This part explains **why we chose Proton** and how to configure a **secure, efficient workflow** across its core apps. Examples use **Proton Unlimited**; most steps also work with **Proton Plus** unless noted.
 
 ## Goal
 
-By the end, you will:
+By the end, you will
 
 * Understand **Proton's** services and privacy model.
 * Configure Proton for **safe, everyday use**.
@@ -331,3 +331,26 @@ An authenticator adds a one‑time code to your password. If your password leaks
 ## Summary
 
 You now have a secure Proton baseline: private email with aliases, a hardened password workflow with Proton Pass, and resilient 2FA with Proton Authenticator. Continue to the next part for deep‑dive setup of **Proton Drive** and **Proton Calendar**.
+
+<!--// Checklist // -->
+## Checklist
+
+* [ ] **Proton account secured** strong, unique password in **Proton Pass** and **2FA** on with **Proton Authenticator**
+* [ ] **Proton Mail ready** basic settings reviewed, folders/labels made, and at least one **alias** created (plus or random)
+* [ ] **Proton Pass installed everywhere** browser extension + desktop/mobile; Autofill works; old passwords imported
+* [ ] **Proton Authenticator set** codes on two devices (or encrypted sync enabled); recovery codes stored safely
+* [ ] **Privacy settings reviewed** trackers blocked, minimal data sharing, sensible notifications across Proton apps
+* [ ] **Simple maintenance plan** quarterly check of security settings, aliases, and backups
+* [ ] **Baseline screenshots saved** Mail settings, Pass vault view, and Authenticator status for your report
+
+<br>
+
+---
+
+> [⮝ **Go to the Next Part** ⮝](Part-4.md)
+
+---
+
+> [⮝ **Go to the Overview Page** ⮝](../)
+
+---
