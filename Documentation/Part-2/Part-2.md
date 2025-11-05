@@ -15,9 +15,7 @@ This Part secures your daily browsing on Windows with a hardened Firefox setup t
 Configure Firefox for strong privacy and sensible security using built-in options first, then add minimal, high-impact extensions. Optional advanced tweaks are included for power users.
 
 > [!IMPORTANT]
-> Make changes in order. After each step, test 2–3 sites you use daily. If something breaks, add a **site exception**—don’t weaken global settings.
-
----
+> Make changes in order. After each step, test 2–3 sites you use daily. If something breaks, add a **site exception** don’t weaken global settings.
 
 <!--// Step 1 //-->
 ## `Step 1` Set strong privacy defaults
@@ -27,12 +25,12 @@ Configure Firefox for strong privacy and sensible security using built-in option
 3. **HTTPS-Only Mode** > **`Enable in all windows`**
 4. **Firefox Data Collection and Use** > **uncheck all** boxes
 
-![Firefox ETP & HTTPS-Only](Images/P2_Image-1.png)
+![Firefox ETP & HTTPS-Only](Images/P2_Images-1.png)
+![Firefox Telemetry](Images/P2_Images-2.png)
+![Firefox Test](Images/P2_Images-3.png)
 
 > [!TIP]
 > `Strict` enables **Total Cookie Protection**, isolating cookies per-site to stop cross-site tracking.
-
----
 
 <!--// Step 2 //-->
 ## `Step 2` Reduce passive data leaks
@@ -42,12 +40,10 @@ Configure Firefox for strong privacy and sensible security using built-in option
 2. **Search** > **Default Search Engine** > pick **DuckDuckGo** or **Startpage**
 3. **Search** > **uncheck** `Show search suggestions in address bar results`
 
-![Search & Passwords](Images/P2_Image-2.png)
+![Search & Passwords](Images/P2_Images-2.png)
 
 > [!NOTE]
 > Disabling suggestions prevents keystrokes from being sent to a search provider as you type.
-
----
 
 <!--// Step 3 //-->
 ## `Step 3` Lock down device access & autoplay
@@ -57,12 +53,12 @@ Configure Firefox for strong privacy and sensible security using built-in option
 3. **Permissions > Location > Settings…** > **`Block new requests`** (add per-site later)
 4. **Autoplay > Settings…** > **`Block Audio and Video`**
 
-![Permissions & Autoplay](Images/P2_Image-3.png)
+![Permissions & Autoplay](Images/P2_Images-4.png)
+![Firefox Permissions](Images/P2_Images-5.png)
+![alt text](Images/P2_Images-6.png)
 
 > [!IMPORTANT]
 > You can allow a trusted site later via the prompt or **Site Information** panel (lock icon).
-
----
 
 <!--// Step 4 //-->
 ## `Step 4` Tune cookies, history, and clearing (balanced)
@@ -72,7 +68,7 @@ Configure Firefox for strong privacy and sensible security using built-in option
 2. **History > Use custom settings**
    *Optionally uncheck* `Remember browsing and download history` for extra privacy.
 
-![Cookies & History](Images/P2_Image-4.png)
+![Cookies & History](Images/P2_Images-7.png)
 
 > [!WARNING]
 > Aggressive clearing will log you out everywhere. Prefer **Containers** to isolate sites without constant re-logins.
@@ -170,7 +166,7 @@ Open a tab > **`about:config`** > accept the warning.
 ![Exceptions & Maintenance](Images/P2_Image-7.png)
 
 > [!NOTE]
-> This setup delivers strong privacy without breaking daily browsing. If a site misbehaves, add a **site-specific exception** or open it in a **dedicated container**—don’t weaken your global baseline.
+> This setup delivers strong privacy without breaking daily browsing. If a site misbehaves, add a **site-specific exception** or open it in a **dedicated container** don’t weaken your global baseline.
 
 ## Checklist
 
