@@ -40,7 +40,9 @@ Configure Firefox for strong privacy and sensible security using built-in option
 2. **Search** > **Default Search Engine** > pick **DuckDuckGo** or **Startpage**
 3. **Search** > **uncheck** `Show search suggestions in address bar results`
 
-![Search & Passwords](Images/P2_Images-2.png)
+![Search & Passwords](Images/P2_Images-4.png)
+![Search & Passwords](Images/P2_Images-5.png)
+![Search & Passwords](Images/P2_Images-8.png)
 
 > [!NOTE]
 > Disabling suggestions prevents keystrokes from being sent to a search provider as you type.
@@ -53,9 +55,7 @@ Configure Firefox for strong privacy and sensible security using built-in option
 3. **Permissions > Location > Settings…** > **`Block new requests`** (add per-site later)
 4. **Autoplay > Settings…** > **`Block Audio and Video`**
 
-![Permissions & Autoplay](Images/P2_Images-4.png)
-![Firefox Permissions](Images/P2_Images-5.png)
-![alt text](Images/P2_Images-6.png)
+![Permissions & Autoplay](Images/P2_Images-9.png)
 
 > [!IMPORTANT]
 > You can allow a trusted site later via the prompt or **Site Information** panel (lock icon).
@@ -68,7 +68,7 @@ Configure Firefox for strong privacy and sensible security using built-in option
 2. **History > Use custom settings**
    *Optionally uncheck* `Remember browsing and download history` for extra privacy.
 
-![Cookies & History](Images/P2_Images-7.png)
+![Cookies & History](Images/P2_Images-10.png)
 
 > [!WARNING]
 > Aggressive clearing will log you out everywhere. Prefer **Containers** to isolate sites without constant re-logins.
@@ -82,7 +82,7 @@ Configure Firefox for strong privacy and sensible security using built-in option
 2. **Enable DNS over HTTPS** > choose a trusted provider (or **Custom** if you have one)
 3. **OK** to save.
 
-![DoH Settings](Images/P2_Image-5.png)
+![DoH Settings](Images/P2_Images-12.png)
 
 > [!TIP]
 > DoH encrypts DNS lookups on untrusted networks and can block known malicious domains via your resolver.
@@ -163,7 +163,7 @@ Open a tab > **`about:config`** > accept the warning.
   * Or use the **lock** icon > **Connection secure > More Information** for granular controls.
 * **Maintenance (quarterly):** confirm updates auto-install, review Privacy settings, and prune unused extensions.
 
-![Exceptions & Maintenance](Images/P2_Image-7.png)
+
 
 > [!NOTE]
 > This setup delivers strong privacy without breaking daily browsing. If a site misbehaves, add a **site-specific exception** or open it in a **dedicated container** don’t weaken your global baseline.
