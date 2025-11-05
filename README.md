@@ -29,9 +29,9 @@
   <h1>Architecture</h1>
 </div>
 
-Placeholder Iamge
+![Arch1](Assets/Architecture_1.png)
 
-Placeholder Image
+![Arch2](Assets/Architecture_2.png)
 
 # Overview
 
