@@ -81,17 +81,7 @@ Enable core defenses (Defender, phishing/PUA, Memory Integrity), use safer accou
 > [!IMPORTANT]
 > Don't disable UAC. It's a key safety net against silent changes.
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube-nocookie.com/embed/CITkUwq0btY?modestbranding=1&rel=0"
-  title="YouTube video player"
-  frameborder="0"
-  loading="lazy"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerpolicy="strict-origin-when-cross-origin"
-  allowfullscreen
-></iframe>
+[![Watch on YouTube](https://img.youtube.com/vi/CITkUwq0btY/hqdefault.jpg)](https://www.youtube.com/watch?v=CITkUwq0btY "Watch the video")
 
 <!--// Step 4 //-->
 ## `Step 4` Turn On Microsoft Defender Essentials

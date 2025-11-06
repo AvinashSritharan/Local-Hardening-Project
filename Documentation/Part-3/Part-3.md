@@ -32,17 +32,8 @@ By the end, you will
 > If you're migrating, enable **forwarding** from your old inbox right after import so nothing is missed.
 
 <!--// Responsive YouTube Embed //-->
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/K2vzs6Q39Zc?modestbranding=1&rel=0"
-    title="YouTube video player"
-    loading="lazy"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
-  ></iframe>
-</div>
+[![Watch on YouTube](https://img.youtube.com/vi/K2vzs6Q39Zc/hqdefault.jpg)](https://www.youtube.com/watch?v=K2vzs6Q39Zc "Watch the video")
+
 
 ## `Step 2` Account Setup & Productivity
 
@@ -89,17 +80,8 @@ By the end, you will
 > Proton Mail + **Proton Calendar** keeps invites and events in sync.
 
 <!--// Responsive YouTube Embed //-->
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/K2vzs6Q39Zc?modestbranding=1&rel=0"
-    title="YouTube video player"
-    loading="lazy"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
-  ></iframe>
-</div>
+[![Watch on YouTube](https://img.youtube.com/vi/K2vzs6Q39Zc/hqdefault.jpg)](https://www.youtube.com/watch?v=K2vzs6Q39Zc "Watch the video")
+
 
 ## `Step 3` Aliases in Proton Mail
 
@@ -122,17 +104,8 @@ Settings > Filters > Add filter > Condition: **To is** `work.eric@proton.me` > A
 > Start simple: one **plus alias** for shopping and one **random alias** for higher‑risk sign‑ups, each with a routing filter.
 
 <!--// Responsive YouTube Embed //-->
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/--fVh73YWFA?modestbranding=1&rel=0"
-    title="YouTube video player"
-    loading="lazy"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
-  ></iframe>
-</div>
+[![Watch on YouTube](https://img.youtube.com/vi/--fVh73YWFA/hqdefault.jpg)](https://www.youtube.com/watch?v=--fVh73YWFA "Watch the video")
+
 
 <br>
 
@@ -150,17 +123,8 @@ Settings > Filters > Add filter > Condition: **To is** `work.eric@proton.me` > A
 > Protect your **Proton account** with **2FA** before importing sensitive data.
 
 <!--// Responsive YouTube Embed //-->
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/ZzqHm1PaTH0?modestbranding=1&rel=0"
-    title="YouTube video player"
-    loading="lazy"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
-  ></iframe>
-</div>
+[![Watch on YouTube](https://img.youtube.com/vi/ZzqHm1PaTH0/hqdefault.jpg)](https://www.youtube.com/watch?v=ZzqHm1PaTH0 "Watch the video")
+
 
 ## `Step 2` Install & Access Everywhere
 
@@ -194,17 +158,8 @@ Settings > Filters > Add filter > Condition: **To is** `work.eric@proton.me` > A
 > CSV exports are plaintext; handle locally, delete securely after import, **never email**.
 
 <!--// Responsive YouTube Embed //-->
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/ZzqHm1PaTH0?modestbranding=1&rel=0"
-    title="YouTube video player"
-    loading="lazy"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
-  ></iframe>
-</div>
+[![Watch on YouTube](https://img.youtube.com/vi/ZzqHm1PaTH0/hqdefault.jpg)](https://www.youtube.com/watch?v=ZzqHm1PaTH0 "Watch the video")
+
 
 ## `Step 3` Build Your Vault
 
@@ -215,17 +170,8 @@ Settings > Filters > Add filter > Condition: **To is** `work.eric@proton.me` > A
 * **Identities** Name/address/phone for consistent form fills.
 
 <!--// Responsive YouTube Embed //-->
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/yHXu55OEWjc?modestbranding=1&rel=0"
-    title="YouTube video player"
-    loading="lazy"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
-  ></iframe>
-</div>
+[![Watch on YouTube](https://img.youtube.com/vi/yHXu55OEWjc/hqdefault.jpg)](https://www.youtube.com/watch?v=yHXu55OEWjc "Watch the video")
+
 
 <br>
 
@@ -280,17 +226,8 @@ An authenticator adds a one‑time code to your password. If your password leaks
 * Codes match and work on **both devices**.
 
 <!--// Responsive YouTube Embed //-->
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/AabS3qmEeA4?modestbranding=1&rel=0"
-    title="YouTube video player"
-    loading="lazy"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
-  ></iframe>
-</div>
+[![Watch on YouTube](https://img.youtube.com/vi/AabS3qmEeA4/hqdefault.jpg)](https://www.youtube.com/watch?v=AabS3qmEeA4 "Watch the video")
+
 
 ## `Step 3` Secure Sync, Backup & Recovery
 

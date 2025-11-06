@@ -18,7 +18,7 @@ Here's a clean, consistent set that matches your project and style.
 
 * Build a safe Windows baseline: updates, Defender, firewall, BitLocker, user accounts (least-privilege), UAC on, and tidy startup/services.
 
-  > [Go to Part 1](Part-1/Part-1.md)
+  > [Go to Part 1](Documentation/Part-1/Part-1.md)
 
 ---
 
@@ -26,7 +26,7 @@ Here's a clean, consistent set that matches your project and style.
 
 * Harden Firefox for everyday privacy: strict tracking protection, HTTPS-Only, DNS-over-HTTPS, minimal trusted extensions, telemetry trim.
 
-  > [Go to Part 2](Part-2/Part-2.md)
+  > [Go to Part 2](Documentation/Part-2/Part-2.md)
 
 ---
 
@@ -34,7 +34,7 @@ Here's a clean, consistent set that matches your project and style.
 
 * Set up Proton Mail, Pass, and Authenticator: strong passwords, aliases, 2FA, and simple backups for a clean daily workflow.
 
-  > [Go to Part 3](Part-3/Part-3.md)
+  > [Go to Part 3](Documentation/Part-3/Part-3.md)
 
 ---
 
@@ -42,7 +42,7 @@ Here's a clean, consistent set that matches your project and style.
 
 * See live system health: Windows Exporter → Prometheus → Grafana. Build a small CPU/RAM/Disk/Network dashboard with one alert.
 
-  > [Go to Part 4](Part-4/Part-4.md)
+  > [Go to Part 4](Documentation/Part-4/Part-4.md)
 
 ---
 
@@ -50,7 +50,7 @@ Here's a clean, consistent set that matches your project and style.
 
 * Understand Wazuh's role: agent vs. manager, rules and decoders, FIM, registry, vulnerabilities, Sysmon, and alert triage strategy.
 
-  > [Go to Part 5](Part-5/Part-5.md)
+  > [Go to Part 5](Documentation/Part-5/Part-5.md)
 
 ---
 
