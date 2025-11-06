@@ -72,12 +72,12 @@ By the end, you'll be able to **talk confidently about Windows hardening**, on d
 
 Below you will see all Parts we have, go to **[this Link](Documentation/ReadMe.md)** get started
 
-1. **[`Part 1` Placeholder 1](Project/Part-1.md/)** Lorem ipsum **dolor sit amet**, consectetur **adipiscing** elit.
-2. **[`Part 2` Placeholder 2](Project/Part-2.md/)** sed do eiusmod **tempor incididunt** ut labore et dolore magna aliqua.
-3. **[`Part 3` Placeholder 3](Project/Part-3.md/)** Ut enim ad **minim veniam**, quis nostrud exercitation.
-4. **[`Part 4` Placeholder 4](Project/Part-4.md/)** Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-5. **[`Part 5` Placeholder 5](Project/Part-5.md/)** Duis aute **irure dolor** in reprehenderit in voluptate velit esse cillum dolore.
-6. **[`Part 6` Placeholder 6](Project/Part-6.md/)** Excepteur sint **occaecat cupidatat** non proident.
+1. **[`Part 1` Essential Windows Configuration](Documentation/Part-1/Part-1.md/)**
+2. **[`Part 2` Browser Security & Privacy](Documentation/Part-2/Part-2.md/)**
+3. **[`Part 3` Proton Services Setup](Documentation/Part-3/Part-3.md/)**
+4. **[`Part 4` Grafana Monitoring](Documentation/Part-4/Part-4.md/)**
+5. **[`Part 5` Wazuh Use Cases (Theory)](Documentation/Part-5/Part-5.md/)**
+6. **[`Part 6` Wazuh Threat Detection (Hands-On)](Documentation/Part-6/Part-6.md/)**
 
 ## Our License
 
